@@ -1,0 +1,85 @@
+.bg-custom{
+    background-color: #1F1F1F;
+    background-color: #1e5631;
+    background-color: #004228;
+}
+
+.nav-container{
+    justify-content: left;
+}
+
+.list-group-item{
+    border: none;
+}
+
+.ap-logo{
+    width: 120px;
+    height: 60px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.logo:hover{
+    opacity: 50%;
+}
+
+.btn-login{
+    background-color: #ffffff;
+    color: #1e5631;
+    font-weight: 500;
+    margin-top: 2px;
+    border: none;
+    padding: 10px;
+    width: 74px;
+}
+
+.btn-login:hover{
+    background-color: #76BA1B;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-login:focus, .btn-login:active{
+    background-color: #76BA1B;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+section.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(../img/banner-example2.jpg);
+    width: 100%;
+    height: 100vh;
+    left: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.banner-txt{
+    padding-top: 10%;
+    font-size: 6rem;
+}
+
+h2.banner-txt{
+    font-size: 2rem;
+    padding-top: 0,5%;
+}
+
+.about-me.grid{
+    margin-left: none;
+}
+
+.ft-perfil{
+    margin-top: -25px;
+    margin-left: none;
+}
+
+.grid.col-9{
+    justify-content: end;
+    text-align: right;
+}
