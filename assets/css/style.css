@@ -4,6 +4,10 @@
     background-color: #004228;
 }
 
+body{
+    background: #70C45644;
+}
+
 .nav-container{
     justify-content: left;
 }
@@ -77,6 +81,8 @@ h2.banner-txt{
 .ft-perfil{
     margin-top: -25px;
     margin-left: none;
+    background-color: #1e5631;
+    border: #1e5631;
 }
 
 .grid.col-9{
