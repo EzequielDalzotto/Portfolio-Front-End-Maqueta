@@ -75,10 +75,10 @@ h1.banner-txt{
     text-transform: uppercase;
     letter-spacing: 4px;
     overflow: hidden;
-    background: linear-gradient(90deg, #000, #fff, #000);
+    background: linear-gradient(90deg, #000, #ddd, #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 5s linear infinite;
+    animation: animate 5s forwards;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
@@ -90,10 +90,10 @@ h2.banner-txt{
     text-transform: uppercase;
     letter-spacing: 4px;
     overflow: hidden;
-    background: linear-gradient(90deg, #000, #fff, #000);
+    background: linear-gradient(90deg, #000, #ddd, #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 5s linear infinite;
+    animation: animate 5s forwards;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
@@ -104,11 +104,11 @@ h2.banner-txt{
       background-position: -300%;
     }
     100% {
-      background-position: 400%;
+      background-position: 50%;
     }
   }
 
-  
+
 /*Acerca de mi*/
 .about-me{
     background: linear-gradient(rgba(0, 20, 2, 0.973),rgba(255, 255, 255, 0.1));
@@ -154,3 +154,6 @@ h2.experiencia-titulo{
 }
 
 /*Educación*/
+.educacion__titulo-seccion{
+    margin-left: 15%;
+}
