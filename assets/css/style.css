@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #70C45644;
+    /*background: #70C45644;*/
     /*background: #02160d;*/
 }
 
@@ -146,7 +146,7 @@ h2.experiencia-titulo{
 
 .ft-exp{
     background-color: #1f1f1f8a;
-    filter: brightness(70%);
+    filter: brightness(80%);
 }
 
 .ft-exp:hover{
@@ -155,5 +155,14 @@ h2.experiencia-titulo{
 
 /*Educación*/
 .educacion__titulo-seccion{
-    margin-left: 15%;
+    margin-right: 17%;
+}
+
+.educacion-texto{
+    text-align:center;
+}
+
+/* Educacion-Carousel */
+.carousel .item img{
+    border: none;
 }

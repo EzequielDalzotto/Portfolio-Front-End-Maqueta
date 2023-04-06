@@ -77,20 +77,83 @@
     
     <!--Educacion-->
     <section class="educacion">
-      <div class="container-fluid grid ms-0 m-0">
-        <h3 class="titulo-seccion educacion__titulo-seccion text-center mt-4">Educacion</h3>
-        <div class="row row">
-          <div class=" col-3 text-left mt-3">
-            <h4 class="educacion-titulo">Secundario</h4>
-            <h6 class="años-de-estudio">2014-2019</h6>
-          </div>
-          <div class="col-3 text-center">
-            <h5>Comercio 1</h2>
-            <p class="educacion-texto">
-            </p>
-          </div>
-          <div class="col-6 text-center">
-            <img src="" alt="Certificados">
+      <div class="container-fluid ms-0 m-0">
+        <h3 class="titulo-seccion educacion__titulo-seccion text-end mt-4">Educacion</h3>
+        <!--Grid que contiene grid de educaciones y certificados-->
+        <div class="educacion__maingrid-container"> 
+          <div class="row">
+            <div class="col-7">
+              <!--Grid de educaciones-->
+              <div class="educacion__grid-educaciones container-fluid">
+                <!-- Secundario -->
+                <div class="row">
+                  <div class=" col-4 text-left mt-3">
+                    <h4 class="educacion-titulo">Secundario</h4>
+                    <h6 class="años-de-estudio">2014-2019</h6>
+                  </div>
+                  <div class="col-8 text-center mt-3">
+                    <h5>Comercio 1</h2>
+                    <p class="educacion-texto">
+                    </p>
+                  </div>
+                </div>
+                <!-- Ingles -->
+                <div class="row">
+                  <div class=" col-4 text-left mt-3">
+                    <h4 class="educacion-titulo">Inglés</h4>
+                    <h6 class="años-de-estudio">2013-2019</h6>
+                  </div>
+                  <div class="col-8 text-center mt-3">
+                    <h5>Instituto E.L.A Inglés</h2>
+                    <p class="educacion-texto">
+                      Con First Certificate in English evaluado por Cambridge Assessment
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class=" col-4 text-left mt-3">
+                    <h4 class="educacion-titulo">Argentina Programa</h4>
+                    <h6 class="años-de-estudio">2021-2022</h6>
+                  </div>
+                  <div class="col-8 text-center mt-3">
+                    <h5>#YoProgramo</h2>
+                    <p class="educacion-texto">
+                      Primera etapa de Argentina Programa
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Columna de certificados-->
+            <div class="col-5 text-center">
+              <!-- Carrousel de certificados -->
+              <div id="carouselCertificados" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="8000">
+                    <img src="/Portfolio-Front-End/assets/img/sample certificate 1.jpg" class="d-block w-100 certificado" alt="Secundario">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="8000">
+                    <img src="/Portfolio-Front-End/assets/img/sample certificate 2.jpg" class="d-block w-100 certificado" alt="Ingles">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="8000">
+                    <img src="/Portfolio-Front-End/assets/img/sample certificate 3.jpg" class="d-block w-100 certificado" alt="#YoProgramo">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCertificados" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCertificados" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
