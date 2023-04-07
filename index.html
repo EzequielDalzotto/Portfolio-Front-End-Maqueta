@@ -12,9 +12,11 @@
 
 </head>
 <body>
+
+  <!-- NAV -->
     <nav class="navbar navbar-dark bg-custom">
         <div class="container-fluid justify-content-between nav-container">
-            <img src="/Portfolio-Front-End/assets/img/APLogo.png" alt=""class="d-inline-block align-text-top ap-logo">
+            <a href="/Portfolio-Front-End/index.html"><img src="/Portfolio-Front-End/assets/img/APLogo.png" alt=""class="d-inline-block align-text-top ap-logo"></a>
             <ul class="list-group list-group-horizontal">
                 <li class="list-group-item bg-custom"><a href="https://www.linkedin.com/in/ezequiel-dalzotto-a52bb7250/" target="_blank" rel="noopener noreferrer"><img src="/Portfolio-Front-End/assets/img/icons8-linkedin-circled-50.png" alt="linkedin" class="logo"></a></li>
                 <li class="list-group-item  bg-custom"><a href="https://www.instagram.com/EzequielDalzotto/" target="_blank" rel="noopener noreferrer"><img src="/Portfolio-Front-End/assets/img/instagram-icon.png" alt="instagram" class="logo"></a></li>
@@ -94,6 +96,7 @@
                   <div class="col-8 text-center mt-3">
                     <h5>Comercio 1</h2>
                     <p class="educacion-texto">
+                      Escuela secundaria Nro 16 Profesor Gerardo Victorin
                     </p>
                   </div>
                 </div>
@@ -119,6 +122,18 @@
                     <h5>#YoProgramo</h2>
                     <p class="educacion-texto">
                       Primera etapa de Argentina Programa
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class=" col-4 text-left mt-3">
+                    <h4 class="educacion-titulo">Universidad</h4>
+                    <h6 class="años-de-estudio">2021-Actualidad</h6>
+                  </div>
+                  <div class="col-8 text-center mt-3">
+                    <h5>Facultad de Ciencias de la Administracion - UNER</h2>
+                    <p class="educacion-texto">
+                      Actualmente en tercer año de Licenciatura en Sistemas
                     </p>
                   </div>
                 </div>
@@ -174,7 +189,8 @@
                 <div class="skill">
                   <div class="skill-name">Trabajo en Equipo</div>
                   <div class="skill-bar">
-                    <div class="skill-progress soft-progress-1"></div>
+                    <!--usar active para dar animacion-->
+                    <div class="skill-progress active soft-progress-1"></div> 
                   </div>
                 </div>
               </li>
@@ -276,12 +292,64 @@
             </ul>
           </div>
         </div>
-        
-
-        
-       
       </div>
     </section>
+
+
+    <!-- Proyectos -->
+    <section class="proyectos">
+      <div class="container-fluid grid ms-0 mt-5">
+        <h3 class="titulo-seccion proyectos__titulo-seccion text-center mt-4">Proyectos</h3>
+        <!-- CARDS BOOTSTRAP -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-3">
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Portfolio-Front-End/assets/img/todoListImage.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">To Do List</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Portfolio-Front-End/assets/img/calculator.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Calculadora</h5>
+                <p class="card-text">This is a short card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Portfolio-Front-End/assets/img/sampleCompany.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 3</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Portfolio-Front-End/assets/img/sampleCompany.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 4</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Copyright -->
+    <footer class=" fotdash bg-custom text-center text-white text-lg-start mt-0 mb-0 p">
+      <!-- Copyright -->
+      <div class="text-center p-3 footer mt-0 mb-0" >
+        © copy Copyright Ezequiel Dalzotto - 2023
+      </div>
+      <!-- Copyright -->
+    </footer>
     
     <!-- Modal -->
     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
