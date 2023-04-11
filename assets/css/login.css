@@ -2,6 +2,7 @@ body{
     background: rgb(168,203,168);
     background: linear-gradient(180deg, rgba(168,203,168,1) 35%, rgba(143,184,150,1) 80%, rgba(114,167,134,1) 100%);
     min-height: 100vh;
+    text-align: center;
 }
 
 .bg-custom{
@@ -21,8 +22,8 @@ body{
 }
 
 .ap-logo{
-    width: 120px;
-    height: 60px;
+    width: 100px;
+    height: 50px;
 }
 
 .ap-logo:hover{
@@ -30,8 +31,8 @@ body{
 }
 
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .logo:hover{
@@ -44,8 +45,8 @@ body{
     font-weight: 500;
     margin-top: 2px;
     border: none;
-    padding: 10px;
     width: 74px;
+    padding: 9%;
 }
 
 .btn-login:hover{
@@ -63,6 +64,24 @@ body{
     border: none;
     outline: none;
     box-shadow: none;
+}
+
+/* LOGIN FORM */
+.login-box{
+    width: 40%;
+    min-width: 350px;
+    margin-top: 8%;
+    padding: 4%;
+    background-color: #d4fad798;
+    border: 2px solid #045736;
+}
+
+.login-box .btn-login{
+    background-color: #0a4d32;
+    width: 100%;
+    padding: 0;
+    height: 5vh;
+    color: #ffffff;
 }
 
 footer{

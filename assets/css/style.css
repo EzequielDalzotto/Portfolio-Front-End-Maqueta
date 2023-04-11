@@ -24,8 +24,8 @@ body{
 }
 
 .ap-logo{
-    width: 120px;
-    height: 60px;
+  width: 100px;
+  height: 55px;
 }
 
 .ap-logo:hover{
@@ -33,8 +33,8 @@ body{
 }
 
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .logo:hover{
@@ -47,8 +47,8 @@ body{
     font-weight: 500;
     margin-top: 2px;
     border: none;
-    padding: 10px;
     width: 74px;
+    padding: 9%;
 }
 
 .btn-login:hover{
