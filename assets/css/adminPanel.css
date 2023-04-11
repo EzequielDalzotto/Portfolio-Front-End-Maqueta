@@ -69,12 +69,25 @@ body{
 }
 
 /* List group */
+.adminDashboard .list-group-item{
+    background: #9cc29f;
+}
+
+.adminDashboard .list-group-item:hover{
+    background: #9cc29f;
+}
 
 
-footer{
+
+/* footer{
     margin-top: auto;
     position: fixed;
     bottom: 0;
     width: 100%;
 
+} */
+
+.panel-logo{
+    width: 30px;
+    height: 30px;
 }
