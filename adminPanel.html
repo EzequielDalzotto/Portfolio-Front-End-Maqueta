@@ -70,23 +70,418 @@
               <div class="col-9 text-left m-0">
                 <!-- Tab panes -->
                 <div class="tab-content">
+                    <!-- Panel de Redes -->
                     <div class="tab-pane active" id="redes" role="tabpanel">
-                        Redes
+                        <form>
+                            <div class="my-3">
+                                <label for="linkedin" class="form-label">Linkedin</label>
+                                <input type="text" class="form-control" id="linkedin">
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            <div class="my-3">
+                                <label for="instagram" class="form-label">Instagram</label>
+                                <input type="text" class="form-control" id="instagram">
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            <div class="my-3">
+                                <label for="github" class="form-label">Github</label>
+                                <input type="text" class="form-control" id="github">
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                        </form>
                     </div>
+                    <!-- Panel de Banner -->
                     <div class="tab-pane" id="banner" role="tabpanel">
-                        Banner
+                        <form>
+                            <div class="my-3">
+                                <label for="formFile" class="form-label">Imagen del Banner</label>
+                                <input class="form-control form-file" type="file" id="formFile">
+                                <button type="button" class="btn btn-primary btn-guardar">Actualizar</button>
+                            </div>
+                        </form>
                     </div>
+                    <!-- Panel About-Me -->
                     <div class="tab-pane" id="about-me" role="tabpanel">
-                        About-me
+                        <form>
+                            <div class="my-3">
+                                <label for="formFile" class="form-label">Foto de Perfil</label>
+                                <input class="form-control form-file" type="file" id="formFile">
+                                <button type="button" class="btn btn-primary btn-guardar">Actualizar</button>
+                            </div>
+                            <div class="my-3">
+                                <label for="tituloActual" class="form-label">Titulo</label>
+                                <input type="text" class="form-control" id="tituloActual">
+                                <button type="button" class="btn btn-primary btn-guardar">Actualizar</button>
+                            </div>
+                            <div class="mb-3">
+                                <label for="descripcion" class="form-label">Descripcion</label>
+                                <textarea class="form-control" id="descripcion" rows="3"></textarea>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                        </form>
                     </div>
+
+                    <!-- Panel Educacion -->
                     <div class="tab-pane" id="educacion" role="tabpanel">
-                        Educacion
+                        <form>
+                            <!-- Educaciones -->
+                            <div class=" my-3 educaciones-container">
+                                <h4 class="mt-3">Educaciones</h4>
+
+                                <div class="my-3 educacion-1 grupo-info">
+                                    <div class="my-3">
+                                        <label for="tipoEducacion" class="form-label">Tipo de educacion</label>
+                                        <input type="text" class="form-control" id="tipoEducacion">
+                                    </div>
+                                    <div class="my-3 col-3">
+                                        <label for="años" class="form-label">Años</label>
+                                        <input type="text" class="form-control" id="años">
+                                    </div>
+                                    <div class="my-3">
+                                        <label for="lugar" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control" id="lugar">
+                                    </div>
+                                    <div class="my-3">
+                                        <label for="descripcion-curso" class="form-label">Descripcion</label>
+                                        <textarea class="form-control" id="descripcion-curso" rows="2"></textarea>
+                                    </div>
+                                    <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                    <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                                </div>
+                                
+                                <div class="my-3 educacion-3 grupo-info">
+                                    <div class="my-3">
+                                        <label for="tipoEducacion" class="form-label">Tipo de educacion</label>
+                                        <input type="text" class="form-control" id="tipoEducacion">
+                                    </div>
+                                    <div class="my-3 col-3">
+                                        <label for="años" class="form-label">Años</label>
+                                        <input type="text" class="form-control" id="años">
+                                    </div>
+                                    <div class="my-3">
+                                        <label for="lugar" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control" id="lugar">
+                                    </div>
+                                    <div class="my-3">
+                                        <label for="descripcion-curso" class="form-label">Descripcion</label>
+                                        <textarea class="form-control" id="descripcion-curso" rows="2"></textarea>
+                                    </div>
+                                    <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                    <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                                </div>
+                                
+                                <div class="my-3 educacion-4 grupo-info">
+                                    <div class="my-3">
+                                        <label for="tipoEducacion" class="form-label">Tipo de educacion</label>
+                                        <input type="text" class="form-control" id="tipoEducacion">
+                                    </div>
+                                    <div class="my-3 col-3">
+                                        <label for="años" class="form-label">Años</label>
+                                        <input type="text" class="form-control" id="años">
+                                    </div>
+                                    <div class="my-3">
+                                        <label for="lugar" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control" id="lugar">
+                                    </div>
+                                    <div class="my-3">
+                                        <label for="descripcion-curso" class="form-label">Descripcion</label>
+                                        <textarea class="form-control" id="descripcion-curso" rows="2"></textarea>
+                                    </div>
+                                    <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                    <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                                </div>
+
+                                <button type="button" class="btn btn-primary btn-añadir">Añadir Seccion</button>
+                            </div>
+                            
+                            <!-- Certificaciones -->
+
+                            <div class=" my-3 certificates-container">
+                                <h4>Certificaciones</h4>
+
+                                <div class="my-3 certificado-1">
+                                    <label for="formFile" class="form-label">Imagen del Certificado</label>
+                                    <input class="form-control form-file" type="file" id="formFile">
+                                    <button type="button" class="btn btn-primary btn-guardar">Actualizar</button>
+                                    <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+
+                                </div>
+                                
+                                <div class="my-3 certificado-2">
+                                    <label for="formFile" class="form-label">Imagen del Certificado</label>
+                                    <input class="form-control form-file" type="file" id="formFile">
+                                    <button type="button" class="btn btn-primary btn-guardar">Actualizar</button>
+                                    <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                                </div>
+                                
+                                <div class="my-3 certificado-3">
+                                    <label for="formFile" class="form-label">Imagen del Certificado</label>
+                                    <input class="form-control form-file" type="file" id="formFile">
+                                    <button type="button" class="btn btn-primary btn-guardar">Actualizar</button>
+                                    <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                                </div>
+                                
+                                <div class="my-3 certificado-4">
+                                    <label for="formFile" class="form-label">Imagen del Certificado</label>
+                                    <input class="form-control form-file" type="file" id="formFile">
+                                    <button type="button" class="btn btn-primary btn-guardar">Actualizar</button>
+                                    <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                                </div>
+
+                                <button type="button" class="btn btn-primary btn-añadir">Añadir Certificado</button>
+                            </div>
+                        </form>
                     </div>
+                    <!-- Panel de Skills -->
                     <div class="tab-pane" id="skills" role="tabpanel">
-                        Skills
+                        <!-- SoftSkills -->
+                        <div class=" my-3 softSkills-container">
+                            <h4>Soft Skills</h4>
+                            <div class="my-3 soft-1 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 soft-2 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 soft-3 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 soft-4 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 soft-5 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 soft-6 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+
+                            <button type="button" class="btn btn-primary btn-añadir">Añadir Habilidad</button>
+                        </div>
+
+                        <!-- Hard Skills -->
+                        <div class=" my-3 hardSkills-container">
+                            <h4>Hard Skills</h4>
+                            <div class="my-3 hard-1 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 hard-2 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 hard-3 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 hard-4 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 hard-5 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 hard-6 grupo-info">
+                                <div class="my-3 col-6">
+                                    <label for="skill" class="form-label">Habilidad</label>
+                                    <input type="text" class="form-control" id="skill">
+                                </div>
+                                <div class="my-3 col-2">
+                                    <label for="porcentaje" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control col-3" id="porcentaje">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+
+                            <button type="button" class="btn btn-primary btn-añadir">Añadir Habilidad</button>
+                        </div>
                     </div>
+
+                    <!-- Panel de Proyectos -->
                     <div class="tab-pane" id="proyectos" role="tabpanel">
-                        Proyectos
+                        <div class="my-3 proyectos-container">
+                            <h4>Proyectos</h4>
+
+                            <div class="my-3 proyecto-1 grupo-info">
+                                <div class="my-3">
+                                    <label for="formFile" class="form-label">Caratula del Proyecto</label>
+                                    <input class="form-control form-file" type="file" id="formFile">
+                                </div>
+                                <div class="my-3">
+                                    <label for="tituloProyecto" class="form-label">Proyecto</label>
+                                    <input type="text" class="form-control" id="tituloProyecto">
+                                </div>
+                                <div class="my-3">
+                                    <label for="descripcion-proyecto" class="form-label">Descripcion</label>
+                                    <textarea class="form-control" id="descripcion-proyecto" rows="2"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+                            
+                            <div class="my-3 proyecto-2 grupo-info">
+                                <div class="my-3">
+                                    <label for="formFile" class="form-label">Caratula del Proyecto</label>
+                                    <input class="form-control form-file" type="file" id="formFile">
+                                </div>
+                                <div class="my-3">
+                                    <label for="tituloProyecto" class="form-label">Proyecto</label>
+                                    <input type="text" class="form-control" id="tituloProyecto">
+                                </div>
+                                <div class="my-3">
+                                    <label for="descripcion-proyecto" class="form-label">Descripcion</label>
+                                    <textarea class="form-control" id="descripcion-proyecto" rows="2"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+
+                            <div class="my-3 proyecto-3 grupo-info">
+                                <div class="my-3">
+                                    <label for="formFile" class="form-label">Caratula del Proyecto</label>
+                                    <input class="form-control form-file" type="file" id="formFile">
+                                </div>
+                                <div class="my-3">
+                                    <label for="tituloProyecto" class="form-label">Proyecto</label>
+                                    <input type="text" class="form-control" id="tituloProyecto">
+                                </div>
+                                <div class="my-3">
+                                    <label for="descripcion-proyecto" class="form-label">Descripcion</label>
+                                    <textarea class="form-control" id="descripcion-proyecto" rows="2"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+
+                            <div class="my-3 proyecto-4 grupo-info">
+                                <div class="my-3">
+                                    <label for="formFile" class="form-label">Caratula del Proyecto</label>
+                                    <input class="form-control form-file" type="file" id="formFile">
+                                </div>
+                                <div class="my-3">
+                                    <label for="tituloProyecto" class="form-label">Proyecto</label>
+                                    <input type="text" class="form-control" id="tituloProyecto">
+                                </div>
+                                <div class="my-3">
+                                    <label for="descripcion-proyecto" class="form-label">Descripcion</label>
+                                    <textarea class="form-control" id="descripcion-proyecto" rows="2"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-guardar">Guardar</button>
+                                <button type="button" class="btn btn-primary btn-eliminar ms-2">Eliminar</button>
+                            </div>
+
+                            <button type="button" class="btn btn-primary btn-añadir">Añadir Proyecto</button>
+                        </div>
                     </div>
                 </div>
               </div>
